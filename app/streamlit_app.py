@@ -82,7 +82,7 @@ if query:
     rc1, rc2 = st.columns(2)
     with rc1:
         st.caption("VectorRAG (reference)")
-        st.bar_chart(dict(zip(v_data["labels"], v_data["values"])))
+        st.bar_chart(dict(zip(v_data["labels"], v_data["values"], strict=True)))
     with rc2:
         st.caption("GraphRAG (reference)")
-        st.bar_chart(dict(zip(g_data["labels"], g_data["values"])))
+        st.bar_chart(dict(zip(g_data["labels"], g_data["values"], strict=True)))
