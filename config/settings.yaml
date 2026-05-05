@@ -1,0 +1,27 @@
+ollama:
+  base_url: "http://localhost:11434"
+  generation_model: "qwen2.5:1.5b"
+  embedding_model: "nomic-embed-text"
+  timeout: 120
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "graphrag_demo"
+
+chromadb:
+  persist_directory: "data/chroma"
+  collection_name: "nordfinance"
+
+corpus:
+  output_dir: "data/corpus"
+
+eval:
+  output_dir: "data/eval"
+
+retrieval:
+  vector_top_k: 5
+  graph_top_k: 3
+  mmr_lambda: 0.7
+  max_graph_triples: 10
+  context_budget_tokens: 2048
