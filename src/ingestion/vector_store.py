@@ -1,8 +1,10 @@
 """ChromaDB document store with idempotent SHA256-keyed upserts."""
 
 import hashlib
+from typing import cast
 
 import chromadb
+from chromadb import Embeddings
 from loguru import logger
 
 from src.config import get_settings
@@ -39,7 +41,7 @@ class ChromaDocumentStore:
             logger.debug("All chunks already present — skipping.")
             return 0
         new_ids = [self.chunk_id(c) for c in new_chunks]
-        embeddings = self._embedder.embed_batch([c.text for c in new_chunks])
+        embeddings = cast(Embeddings, self._embedder.embed_batch([c.text for c in new_chunks]))
         self._collection.add(
             ids=new_ids,
             embeddings=embeddings,
@@ -56,9 +58,9 @@ class ChromaDocumentStore:
             n_results=n_results,
             include=["documents", "metadatas", "distances"],
         )
-        docs = results["documents"][0]
-        metas = results["metadatas"][0]
-        dists = results["distances"][0]
+        docs = (results["documents"] or [[]])[0]
+        metas = (results["metadatas"] or [[]])[0]
+        dists = (results["distances"] or [[]])[0]
         return [
             {"text": d, "metadata": m, "distance": dist}
             for d, m, dist in zip(docs, metas, dists, strict=True)
@@ -66,7 +68,6 @@ class ChromaDocumentStore:
 
 
 if __name__ == "__main__":
-
     from src.corpus.generator import generate_corpus
     from src.ingestion.chunker import chunk_document
 

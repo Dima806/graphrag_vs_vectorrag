@@ -25,7 +25,9 @@ def test_upsert_entity_runs_merge_query() -> None:
 
     mock_session.run.assert_called_once()
     call_args = mock_session.run.call_args
-    assert "MERGE" in call_args[0][0]
+    query_arg = call_args[0][0]
+    query_text = query_arg.text if hasattr(query_arg, "text") else str(query_arg)
+    assert "MERGE" in query_text
     assert call_args[1]["name"] == "NordBank A/S"
 
 
@@ -44,7 +46,9 @@ def test_upsert_relationship_runs_merge_query() -> None:
 
     mock_session.run.assert_called_once()
     call_args = mock_session.run.call_args
-    assert "MERGE" in call_args[0][0]
+    query_arg = call_args[0][0]
+    query_text = query_arg.text if hasattr(query_arg, "text") else str(query_arg)
+    assert "MERGE" in query_text
     assert call_args[1]["source"] == "NordBank A/S"
     assert call_args[1]["target"] == "Deloitte Nordic"
 

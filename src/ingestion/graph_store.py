@@ -2,6 +2,7 @@
 
 from loguru import logger
 from neo4j import GraphDatabase
+from neo4j import Query as CypherQuery
 
 from src.config import get_settings
 from src.corpus.schemas import Entity, Relationship
@@ -20,24 +21,20 @@ class Neo4jGraphStore:
 
     def upsert_entity(self, entity: Entity) -> None:
         """MERGE entity node; set description property."""
-        query = f"MERGE (n:`{entity.type}` {{name: $name}}) SET n.description = $description"
+        cypher = CypherQuery(
+            f"MERGE (n:`{entity.type}` {{name: $name}}) SET n.description = $description"  # type: ignore
+        )
         with self._driver.session() as session:
-            session.run(query, name=entity.name, description=entity.description)
+            session.run(cypher, name=entity.name, description=entity.description)
 
     def upsert_relationship(self, rel: Relationship) -> None:
         """MERGE directed relationship between two entity nodes."""
-        query = (
-            "MATCH (a {name: $source}), (b {name: $target}) "
-            f"MERGE (a)-[r:`{rel.type}`]->(b) "
-            "SET r += $props"
+        rel_label = f"`{rel.type}`"
+        cypher = CypherQuery(
+            f"MATCH (a {{name: $source}}), (b {{name: $target}}) MERGE (a)-[r:{rel_label}]->(b) SET r += $props"  # type: ignore
         )
         with self._driver.session() as session:
-            session.run(
-                query,
-                source=rel.source,
-                target=rel.target,
-                props=rel.properties,
-            )
+            session.run(cypher, source=rel.source, target=rel.target, props=rel.properties)
 
     def upsert_entities(self, entities: list[Entity]) -> int:
         """Merge all entities; return count."""
@@ -67,3 +64,36 @@ class Neo4jGraphStore:
                 {"source": row["source"], "rel": row["rel"], "target": row["target"]}
                 for row in result
             ]
+
+
+if __name__ == "__main__":
+    import json
+    from pathlib import Path
+
+    from src.config import get_settings
+    from src.corpus.schemas import Entity, Relationship
+
+    out_dir = Path(get_settings().corpus.output_dir)
+    entities_path = out_dir / "extracted_entities.json"
+    relationships_path = out_dir / "extracted_relationships.json"
+
+    if not entities_path.exists():
+        logger.warning(
+            f"No extracted entities found at {entities_path}. Run entity_extractor first."
+        )
+    else:
+        store = Neo4jGraphStore()
+        try:
+            raw_entities = json.loads(entities_path.read_text(encoding="utf-8"))
+            entities = [Entity(**e) for e in raw_entities]
+            store.upsert_entities(entities)
+
+            if relationships_path.exists():
+                raw_rels = json.loads(relationships_path.read_text(encoding="utf-8"))
+                relationships = [Relationship(**r) for r in raw_rels]
+                store.upsert_relationships(relationships)
+            else:
+                logger.warning(f"No extracted relationships found at {relationships_path}.")
+        finally:
+            store.close()
+        logger.info("Graph store population complete.")

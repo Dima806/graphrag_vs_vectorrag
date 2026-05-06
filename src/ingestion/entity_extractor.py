@@ -119,3 +119,38 @@ class EntityExtractor:
             r for item in data.get("relationships", []) if (r := _parse_relationship(item))
         ]
         return ExtractionResult(entities=dedup_entities(entities), relationships=relationships)
+
+
+if __name__ == "__main__":
+    import json
+    from pathlib import Path
+
+    from src.config import get_settings
+    from src.corpus.generator import generate_corpus
+    from src.ingestion.chunker import chunk_document
+
+    extractor = EntityExtractor()
+    all_entities: list[Entity] = []
+    all_relationships: list[Relationship] = []
+
+    for doc in generate_corpus():
+        chunks = chunk_document(doc.content, doc.doc_id)
+        for chunk in chunks:
+            result = extractor.extract(chunk.text)
+            all_entities.extend(result.entities)
+            all_relationships.extend(result.relationships)
+
+    all_entities = dedup_entities(all_entities)
+
+    out_dir = Path(get_settings().corpus.output_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "extracted_entities.json").write_text(
+        json.dumps([e.model_dump() for e in all_entities], indent=2), encoding="utf-8"
+    )
+    (out_dir / "extracted_relationships.json").write_text(
+        json.dumps([r.model_dump() for r in all_relationships], indent=2), encoding="utf-8"
+    )
+    logger.info(
+        f"Extraction complete: {len(all_entities)} entities, "
+        f"{len(all_relationships)} relationships saved to {out_dir}"
+    )

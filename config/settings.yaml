@@ -2,7 +2,7 @@ ollama:
   base_url: "http://localhost:11434"
   generation_model: "qwen2.5:1.5b"
   embedding_model: "nomic-embed-text"
-  timeout: 120
+  timeout: 300
 
 neo4j:
   uri: "bolt://localhost:7687"

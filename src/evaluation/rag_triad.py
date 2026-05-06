@@ -36,7 +36,7 @@ _AR_PROMPT = (
 
 def parse_score(raw: str) -> float:
     """Extract a float from LLM output and clamp to [0.0, 1.0]."""
-    match = re.search(r"[01]?\.\d+|[01]", raw.strip())
+    match = re.search(r"-?(?:[01]?\.\d+|[01])", raw.strip())
     if match:
         return max(0.0, min(1.0, float(match.group())))
     return 0.0
