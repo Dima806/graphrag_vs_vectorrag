@@ -6,6 +6,18 @@ GraphRAG vs VectorRAG comparison on synthetic financial compliance docs (NordFin
 Thesis: GraphRAG +25–40% RAG Triad on multi-hop queries; −10–15% on single-hop due to noisy
 entity extraction from a 1.5B model. All inference local via Ollama. No data leaves the machine.
 
+## Evaluation Results (30 questions, qwen2.5:1.5b judge)
+
+| Slice       | VectorRAG triad | GraphRAG triad | Delta      |
+|-------------|-----------------|----------------|------------|
+| Single-hop  | 0.704           | 0.640          | −9.1%      |
+| Multi-hop   | 0.534           | 0.700          | **+31.3%** |
+| Overall     | 0.619           | 0.670          | +8.3%      |
+
+Graph wins 14/30 questions overall; 9/15 multi-hop, 5/15 single-hop.
+Main failure mode: graph context_relevance collapses to 0.0 on 4 questions where entity
+extraction produced no usable triples (triad geometric-mean floors to 0).
+
 ## Stack
 
 - Python 3.11 · httpx · neo4j driver · chromadb · numpy · networkx · streamlit · loguru
@@ -20,6 +32,7 @@ entity extraction from a 1.5B model. All inference local via Ollama. No data lea
 ## Repository Structure
 
 ```
+.devcontainer/    docker-compose.yml (Neo4j 5 Community)
 config/           settings.yaml (Pydantic Settings)
 src/corpus/       generator.py, schemas.py
 src/ingestion/    chunker, embedder, vector_store, entity_extractor, graph_store
@@ -46,6 +59,17 @@ notebooks/        01–06 (EDA → vector → extraction → graph → eval → 
   answer relevance — scored 0.0–1.0, aggregated as geometric mean
 - Graph retrieval: max 10 Cypher triples per query, graph context merged before vector chunks
 - `make ingest` is idempotent (ChromaDB SHA256 IDs, Neo4j MERGE)
+
+## Runtime Notes
+
+- Ollama 0.23.0: `nomic-embed-text` takes ~22s to cold-load; first embedding call is slow.
+  `qwen2.5:1.5b` extraction takes ~60s per chunk (CPU only, no GPU in Codespace).
+  `config/settings.yaml` `timeout: 300` covers both model-load + generation for worst-case chunks.
+- Neo4j is started via `.devcontainer/docker-compose.yml`. Run `make neo4j-up` before `make ingest`.
+- `make ingest` order: vector_store → entity_extractor → graph_store.
+  entity_extractor writes `data/corpus/extracted_entities.json` and `extracted_relationships.json`.
+  graph_store reads those files; it will warn and exit cleanly if they don't exist yet.
+- Both ChromaDB upserts (SHA256 keyed) and Neo4j MERGEs are fully idempotent — safe to re-run.
 
 ## Makefile Commands
 

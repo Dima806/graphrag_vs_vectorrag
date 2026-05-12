@@ -1,0 +1,23 @@
+NORDBANK A/S — RISK ASSESSMENT REPORT 2024
+
+NordBank A/S is the primary banking subsidiary of NordFinance Group, holding a universal
+banking licence issued by Finanstilsynet. CEO: Søren Møller. CFO: Camilla Dahl.
+
+Tier 1 Capital Ratio: 18.4% (regulatory minimum: 6%)
+Total Capital Ratio: 21.1%
+Leverage Ratio: 5.2%
+Liquidity Coverage Ratio (LCR): 142%
+Net Stable Funding Ratio (NSFR): 118%
+
+MATERIAL RISK FACTORS:
+1. Credit Risk — Exposure to Danish commercial real estate sector (DKK 8.4bn).
+2. Market Risk — Interest rate sensitivity; 100bp parallel shift impacts NII by DKK 340m.
+3. Operational Risk — Legacy core banking system migration risk; estimated DKK 120m exposure.
+4. Compliance Risk — AML framework post-FSA remediation order (ref. FSA-2023-NB-004).
+5. Concentration Risk — Top 10 borrowers represent 22% of total credit exposure.
+6. Liquidity Risk — Funding concentration in short-term wholesale markets.
+7. Model Risk — Internal rating model validation overdue for three sub-portfolios.
+8. Reputational Risk — Residual impact from 2023 AML sanction.
+
+NordBank is audited by Deloitte Nordic. The bank is regulated by Finanstilsynet and
+subject to ECB oversight as part of the NordFinance Group SSM supervision.

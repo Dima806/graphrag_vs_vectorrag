@@ -1,0 +1,448 @@
+[
+  {
+    "source": "NordFinance Group",
+    "target": "Erik Lindqvist",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Astrid Bergmann",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Lars Henriksen",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Margarethe Solvang",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "NordFinance Group",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "NordFinance Group",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "NordFinance Group",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "NordFinance Group",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "Danish Financial Supervisory Authority",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "European Central Bank",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "Group auditor for fiscal year 2024",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "NordBank A/S",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "Finanstilsynet",
+    "target": "Nordbank A/S",
+    "type": "ISSUED_SANCTION",
+    "properties": {}
+  },
+  {
+    "source": "NordBank",
+    "target": "Deloitte Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank",
+    "target": "Eurosystem (ECB)",
+    "type": "ISSUED_SANCTION",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Credit Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Market Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Operational Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Compliance Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Concentration Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NORDINSURE A/S",
+    "target": "NordFinance Group",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "Finanstilsynet",
+    "target": "NordInsure A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Finanstilsynet",
+    "target": "NordInsure",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordInsure",
+    "target": "EY Nordic",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Thomas Ravn (Deloitte Nordic)",
+    "target": "Audit Firm: Deloitte Nordic, Copenhagen",
+    "type": "AUDITED_BY",
+    "properties": {
+      "engagementPartner": "Thomas Ravn"
+    }
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "Finanstilsynet",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "KPMG",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "Deloitte Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "KPMG",
+    "type": "MENTIONS_RISK",
+    "properties": {}
+  },
+  {
+    "source": "Rasmus Elkj\u00e6r",
+    "target": "NordBank A/S",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Ingrid Thorvaldsen",
+    "target": "NordInsure A/S",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "FINANSTILSYNET",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "FINANSTILSYNET",
+    "type": "ISSUED_SANCTION",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "Finanstilsynet",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "Finnbank",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "S\u00f8ren M\u00f8ller",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "external AML consultants",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group Board",
+    "target": "Chairman, Copenhagen Business School Foundation Board",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "Board Member, NordFinance Group Board",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordFinance Group, NordBank A/S, NordWealth A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "KPMG",
+    "target": "NordPay A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "EY Nordic",
+    "target": "NordInsure A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Astrid Bergmann",
+    "target": "Group Audit Committee",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "NordFinances Group",
+    "target": "NordPay A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordPay A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "KPMG",
+    "target": "NordPay A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordFinance Group (consolidated)",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordBank A/S",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordInsure A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordWealth A/S",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Deloitte Nordic",
+    "target": "NordPay A/S",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "EY Nordic",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "",
+    "target": "KPMG",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "NORDFINANCE GROUP",
+    "target": "ECB",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NORDFINANCE GROUP",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "None",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "None",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "None",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "None",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NORDFINANCE GROUP",
+    "target": "ERIK LINDQVIST",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "NORDFINANCE GROUP",
+    "target": "ASTRID BERGMANN",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "Skandia Bank (2014\u20132019)",
+    "target": "ERIK LINDQVIST",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Nordea Group (2009\u20132014)",
+    "target": "ERIK LINDQVIST",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Tryg A/S (2016\u20132021)",
+    "target": "ASTRID BERGMANN",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "LARS HENRIKSEN",
+    "target": "S\u00d8REN M\u00d8LLER",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "S\u00d8REN M\u00d8LLER",
+    "target": "CAMILLA DAHL",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "LARS HENRIKSEN",
+    "target": "Danske Bank",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "KATRINA HALVORSEN",
+    "target": "",
+    "type": "HAS_OFFICER",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Credit Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Market Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Operational Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Liquidity Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "None",
+    "target": "Compliance Risk",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  }
+]

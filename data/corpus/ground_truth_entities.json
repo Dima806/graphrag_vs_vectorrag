@@ -1,0 +1,152 @@
+[
+  {
+    "name": "NordFinance Group",
+    "type": "Company",
+    "description": "Nordic financial conglomerate, parent company"
+  },
+  {
+    "name": "NordBank A/S",
+    "type": "Company",
+    "description": "Banking subsidiary of NordFinance Group"
+  },
+  {
+    "name": "NordInsure A/S",
+    "type": "Company",
+    "description": "Insurance subsidiary of NordFinance Group"
+  },
+  {
+    "name": "NordWealth A/S",
+    "type": "Company",
+    "description": "Wealth management subsidiary of NordFinance Group"
+  },
+  {
+    "name": "NordPay A/S",
+    "type": "Company",
+    "description": "Payment processing subsidiary of NordFinance Group"
+  },
+  {
+    "name": "Erik Lindqvist",
+    "type": "Person",
+    "description": "Group CEO of NordFinance Group"
+  },
+  {
+    "name": "Astrid Bergmann",
+    "type": "Person",
+    "description": "Group CFO of NordFinance Group"
+  },
+  {
+    "name": "Lars Henriksen",
+    "type": "Person",
+    "description": "Group CRO of NordFinance Group"
+  },
+  {
+    "name": "Margarethe Solvang",
+    "type": "Person",
+    "description": "Chairman of the Board, NordFinance Group"
+  },
+  {
+    "name": "S\u00f8ren M\u00f8ller",
+    "type": "Person",
+    "description": "CEO of NordBank A/S"
+  },
+  {
+    "name": "Camilla Dahl",
+    "type": "Person",
+    "description": "CFO of NordBank A/S"
+  },
+  {
+    "name": "Birthe Kastrup",
+    "type": "Person",
+    "description": "CEO of NordInsure A/S"
+  },
+  {
+    "name": "Katrina Halvorsen",
+    "type": "Person",
+    "description": "CEO of NordWealth A/S"
+  },
+  {
+    "name": "Silje Andersen",
+    "type": "Person",
+    "description": "CEO of NordPay A/S"
+  },
+  {
+    "name": "Rasmus Elkj\u00e6r",
+    "type": "Person",
+    "description": "Independent Director on NordBank and NordPay boards"
+  },
+  {
+    "name": "Ingrid Thorvaldsen",
+    "type": "Person",
+    "description": "Independent Director on NordPay and NordInsure boards"
+  },
+  {
+    "name": "Deloitte Nordic",
+    "type": "AuditFirm",
+    "description": "Auditor for NordFinance Group, NordBank, NordWealth"
+  },
+  {
+    "name": "EY Nordic",
+    "type": "AuditFirm",
+    "description": "Auditor for NordInsure A/S"
+  },
+  {
+    "name": "KPMG",
+    "type": "AuditFirm",
+    "description": "Auditor for NordPay A/S from 2025"
+  },
+  {
+    "name": "Finanstilsynet",
+    "type": "Regulator",
+    "description": "Danish Financial Supervisory Authority"
+  },
+  {
+    "name": "ECB",
+    "type": "Regulator",
+    "description": "European Central Bank, SSM supervisor"
+  },
+  {
+    "name": "Credit Risk",
+    "type": "RiskFactor",
+    "description": "Risk of borrower default"
+  },
+  {
+    "name": "Market Risk",
+    "type": "RiskFactor",
+    "description": "Risk from adverse market movements"
+  },
+  {
+    "name": "Operational Risk",
+    "type": "RiskFactor",
+    "description": "Risk from process/system failures"
+  },
+  {
+    "name": "Compliance Risk",
+    "type": "RiskFactor",
+    "description": "Risk of regulatory penalties"
+  },
+  {
+    "name": "AML/Financial Crime Risk",
+    "type": "RiskFactor",
+    "description": "Money laundering and financial crime risk"
+  },
+  {
+    "name": "Tier 1 Capital Ratio",
+    "type": "FinancialMetric",
+    "description": "NordBank Tier 1 ratio 18.4%"
+  },
+  {
+    "name": "SCR Ratio",
+    "type": "FinancialMetric",
+    "description": "NordInsure SCR ratio 187%"
+  },
+  {
+    "name": "AUM",
+    "type": "FinancialMetric",
+    "description": "NordWealth AUM DKK 98.4bn"
+  },
+  {
+    "name": "NordBank Risk Assessment 2024",
+    "type": "Report",
+    "description": "NordBank annual risk report"
+  }
+]

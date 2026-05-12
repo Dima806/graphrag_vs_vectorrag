@@ -1,0 +1,252 @@
+[
+  {
+    "name": "NORDFINANCE GROUP",
+    "type": "Company",
+    "description": "A Nordic financial conglomerate headquartered in Copenhagen, Denmark."
+  },
+  {
+    "name": "Erik Lindqvist",
+    "type": "Person",
+    "description": "Group Chief Executive Officer"
+  },
+  {
+    "name": "Astrid Bergmann",
+    "type": "Person",
+    "description": "Group Chief Financial Officer"
+  },
+  {
+    "name": "Lars Henriksen",
+    "type": "Person",
+    "description": "Group Chief Risk Officer"
+  },
+  {
+    "name": "Margarethe Solvang",
+    "type": "Person",
+    "description": "Chairman of the Board"
+  },
+  {
+    "name": "Danish Financial Supervisory Authority",
+    "type": "Regulator",
+    "description": "The Danish regulatory body responsible for financial oversight."
+  },
+  {
+    "name": "European Central Bank",
+    "type": "Regulator",
+    "description": "The central banking institution overseeing monetary policy across the European Union."
+  },
+  {
+    "name": "NordBank",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "Deloitte Nordic",
+    "type": "AuditFirm",
+    "description": ""
+  },
+  {
+    "name": "Finanstilsynet",
+    "type": "Regulator",
+    "description": ""
+  },
+  {
+    "name": "Eurosystem (ECB)",
+    "type": "Regulator",
+    "description": ""
+  },
+  {
+    "name": "Credit Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Market Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Operational Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Compliance Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Concentration Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Liquidity Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Model Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Reputational Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Birthe Kastrup",
+    "type": "Person",
+    "description": "The CEO of NordInsure A/S."
+  },
+  {
+    "name": "Henrik S\u00f8rensen",
+    "type": "Person",
+    "description": "The CFO of NordInsure A/S."
+  },
+  {
+    "name": "Katrina Halvorsen",
+    "type": "Person",
+    "description": ""
+  },
+  {
+    "name": "Mikkel Strandberg",
+    "type": "Person",
+    "description": ""
+  },
+  {
+    "name": "Rasmus Elkj\u00e6r",
+    "type": "Person",
+    "description": ""
+  },
+  {
+    "name": "NordBank A/S",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "Ingrid Thorvaldsen",
+    "type": "Person",
+    "description": ""
+  },
+  {
+    "name": "NordInsure A/S",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "S\u00f8ren M\u00f8ller",
+    "type": "Person",
+    "description": "CEO of NordBank A/S"
+  },
+  {
+    "name": "KPMG",
+    "type": "AuditFirm",
+    "description": "Company"
+  },
+  {
+    "name": "EY Nordic",
+    "type": "AuditFirm",
+    "description": "Company"
+  },
+  {
+    "name": "NordPay A/S",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "Audit Committee",
+    "type": "Regulator",
+    "description": ""
+  },
+  {
+    "name": "PwC Nordic",
+    "type": "AuditFirm",
+    "description": ""
+  },
+  {
+    "name": "GROUP BALANCE SHEET (31 Dec 2024)",
+    "type": "Report",
+    "description": "A financial report detailing asset and equity information as of December 31, 2024."
+  },
+  {
+    "name": "Total assets:             412,000",
+    "type": "FinancialMetric",
+    "description": "The total amount of assets recorded in the balance sheet."
+  },
+  {
+    "name": "Customer loans:           198,000",
+    "type": "FinancialMetric",
+    "description": "The sum of customer loans listed as part of total assets."
+  },
+  {
+    "name": "Customer deposits:        164,000",
+    "type": "FinancialMetric",
+    "description": "The total amount of customer deposits included in the balance sheet."
+  },
+  {
+    "name": "Total equity:              36,800",
+    "type": "FinancialMetric",
+    "description": "The net worth of the entity as reflected on the balance sheet."
+  },
+  {
+    "name": "ECB",
+    "type": "AuditFirm",
+    "description": ""
+  },
+  {
+    "name": "Nordea Group (2009\u20132014)",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "Partner PwC Nordic (2010\u20132016)",
+    "type": "Company",
+    "description": ""
+  },
+  {
+    "name": "CAMILLA DAHL",
+    "type": "Person",
+    "description": "CFO at NordBank"
+  },
+  {
+    "name": "MBA",
+    "type": "FinancialMetric",
+    "description": ""
+  },
+  {
+    "name": "Strategic Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Underwriting Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Cyber Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Climate Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Counterparty Credit Risk",
+    "type": "RiskFactor",
+    "description": ""
+  },
+  {
+    "name": "Interest Rate Risk in the Banking Book (IRRBB)",
+    "type": "FinancialMetric",
+    "description": ""
+  },
+  {
+    "name": "AML/Financial Crime Risk",
+    "type": "RiskFactor",
+    "description": ""
+  }
+]

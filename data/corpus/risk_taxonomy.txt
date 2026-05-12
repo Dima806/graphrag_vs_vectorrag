@@ -1,0 +1,21 @@
+NORDFINANCE GROUP — ENTERPRISE RISK TAXONOMY 2024
+
+This document defines the 15 risk categories recognised across all NordFinance subsidiaries.
+
+1.  Credit Risk — Risk of loss from borrower/counterparty default.
+2.  Market Risk — Risk from adverse movements in interest rates, FX, equities, commodities.
+3.  Operational Risk — Risk from inadequate processes, systems, people, or external events.
+4.  Liquidity Risk — Risk of inability to meet financial obligations as they fall due.
+5.  Compliance Risk — Risk of regulatory penalties from failure to comply with laws/rules.
+6.  Reputational Risk — Risk of stakeholder confidence loss affecting franchise value.
+7.  Strategic Risk — Risk from adverse business decisions or failure to implement strategy.
+8.  Model Risk — Risk of material error due to incorrect model development or application.
+9.  Concentration Risk — Risk from exposure to a single counterparty, sector, or geography.
+10. Underwriting Risk — Insurance-specific risk from mispriced policies or claims volatility.
+11. Cyber Risk — Risk from IT security incidents, data breaches, or ransomware attacks.
+12. Climate Risk — Physical and transition risks from climate change and policy responses.
+13. Counterparty Credit Risk — Specific risk in derivative and SFT exposures.
+14. Interest Rate Risk in the Banking Book (IRRBB) — NII and EVE sensitivity.
+15. AML/Financial Crime Risk — Risk of involvement in money laundering or terrorist financing.
+
+Each risk category is owned by a named Risk Owner and reviewed quarterly by the Group CRO.

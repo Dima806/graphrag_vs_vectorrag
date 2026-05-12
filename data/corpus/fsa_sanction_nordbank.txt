@@ -1,0 +1,22 @@
+FINANSTILSYNET — SUPERVISORY DECISION
+Reference: FSA-2023-NB-004
+Date: 22 September 2023
+Subject: Administrative Sanction — NordBank A/S — AML Framework Deficiencies
+
+Finanstilsynet (the Danish Financial Supervisory Authority) hereby issues the following
+supervisory decision against NordBank A/S.
+
+FINDINGS:
+Finanstilsynet's on-site inspection conducted in March–April 2023 identified material
+deficiencies in NordBank's Anti-Money Laundering (AML) framework, specifically:
+(a) Inadequate Customer Due Diligence (CDD) procedures for high-risk correspondent
+    banking relationships;
+(b) Failure to file timely Suspicious Activity Reports (SARs) in 14 identified cases;
+(c) Deficient transaction monitoring system calibration.
+
+SANCTION:
+Administrative fine: DKK 25,000,000 (twenty-five million Danish kroner).
+NordBank A/S is required to submit a remediation plan within 60 days.
+
+NordBank's CEO Søren Møller acknowledged the findings and confirmed engagement of
+external AML consultants to support remediation.

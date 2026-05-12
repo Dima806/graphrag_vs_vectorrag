@@ -1,0 +1,244 @@
+[
+  {
+    "source": "NordFinance Group",
+    "target": "NordBank A/S",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "NordInsure A/S",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "NordWealth A/S",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "NordPay A/S",
+    "type": "HAS_SUBSIDIARY",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Erik Lindqvist",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CEO"
+    }
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Astrid Bergmann",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CFO"
+    }
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Margarethe Solvang",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "Chairman"
+    }
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "S\u00f8ren M\u00f8ller",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CEO"
+    }
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "Camilla Dahl",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CFO"
+    }
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "Birthe Kastrup",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CEO"
+    }
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "Katrina Halvorsen",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CEO"
+    }
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "Silje Andersen",
+    "type": "HAS_OFFICER",
+    "properties": {
+      "role": "CEO"
+    }
+  },
+  {
+    "source": "Rasmus Elkj\u00e6r",
+    "target": "NordBank A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Rasmus Elkj\u00e6r",
+    "target": "NordPay A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Ingrid Thorvaldsen",
+    "target": "NordPay A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Ingrid Thorvaldsen",
+    "target": "NordInsure A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Margarethe Solvang",
+    "target": "NordPay A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "Erik Lindqvist",
+    "target": "NordPay A/S",
+    "type": "SERVES_ON_BOARD",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "Deloitte Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "Deloitte Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "EY Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "Deloitte Nordic",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "KPMG",
+    "type": "AUDITED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordPay A/S",
+    "target": "Finanstilsynet",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "NordFinance Group",
+    "target": "ECB",
+    "type": "REGULATED_BY",
+    "properties": {}
+  },
+  {
+    "source": "Finanstilsynet",
+    "target": "NordBank A/S",
+    "type": "ISSUED_SANCTION",
+    "properties": {
+      "date": "2023-09-22",
+      "amount": 25000000,
+      "reference": "FSA-2023-NB-004"
+    }
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "NordBank Risk Assessment 2024",
+    "type": "FILED_REPORT",
+    "properties": {}
+  },
+  {
+    "source": "NordBank Risk Assessment 2024",
+    "target": "Credit Risk",
+    "type": "MENTIONS_RISK",
+    "properties": {}
+  },
+  {
+    "source": "NordBank Risk Assessment 2024",
+    "target": "AML/Financial Crime Risk",
+    "type": "MENTIONS_RISK",
+    "properties": {}
+  },
+  {
+    "source": "NordBank A/S",
+    "target": "Tier 1 Capital Ratio",
+    "type": "HAS_METRIC",
+    "properties": {
+      "value": 18.4,
+      "unit": "%",
+      "period": "2024"
+    }
+  },
+  {
+    "source": "NordInsure A/S",
+    "target": "SCR Ratio",
+    "type": "HAS_METRIC",
+    "properties": {
+      "value": 187.0,
+      "unit": "%",
+      "period": "2024"
+    }
+  },
+  {
+    "source": "NordWealth A/S",
+    "target": "AUM",
+    "type": "HAS_METRIC",
+    "properties": {
+      "value": 98400.0,
+      "unit": "DKK_m",
+      "period": "2024"
+    }
+  }
+]

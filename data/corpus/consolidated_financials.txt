@@ -1,0 +1,27 @@
+NORDFINANCE GROUP — CONSOLIDATED FINANCIAL HIGHLIGHTS 2024
+
+All figures in DKK millions unless otherwise stated.
+
+GROUP INCOME STATEMENT (2024):
+  Net interest income:        8,420
+  Net fee and commission:     3,180
+  Net trading income:           890
+  Other income:                 710
+  Total revenue:             14,200
+  Operating expenses:        (8,650)
+  Loan impairments:            (420)
+  Pre-tax profit:             5,130
+  Tax expense:               (1,180)
+  Net profit:                 3,950
+
+GROUP BALANCE SHEET (31 Dec 2024):
+  Total assets:             412,000
+  Customer loans:           198,000
+  Customer deposits:        164,000
+  Total equity:              36,800
+
+SUBSIDIARY KEY METRICS:
+NordBank:     Total assets DKK 298bn, Tier 1 ratio 18.4%, ROE 12.1%
+NordInsure:   Technical provisions DKK 22.1bn, SCR ratio 187%, combined ratio 93%
+NordWealth:   AUM DKK 98.4bn, fee income DKK 1.68bn, cost-income 62%
+NordPay:      Payment volumes DKK 420bn, net revenue DKK 1.14bn, EBITDA margin 31%
